@@ -1,0 +1,30 @@
+.banner {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+  animation: 1s ease-in-out 0s 1 slideIn;
+}
+
+.actions {
+  margin-top: 200px;
+  display: flex;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translate3d(0, -150%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
