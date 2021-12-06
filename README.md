@@ -16,6 +16,7 @@ Run TS check: `npm run typecheck`
 - The sticky header could be made position sticky or with grid layout, but to have the sticky footer as well, it was easier and faster to just create a flex layout
 - Instead of iterating the cards from a data array, I decided to just copy paste each component, since these are not dynamic it was just faster to do.
 - To make the page adapt better to mobile devices I used rem as font-sizes (and some paddings and margins), so when the width is less than 600px, the root font-size is reduced to 12px, making everything smaller.
+- To validate the email on the signup, I used the built in HTML5 form validation since it was faster, but a regex could be used to validate as well.
 
 ### If given more time I would:
 
