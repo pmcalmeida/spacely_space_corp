@@ -15,6 +15,7 @@ Run TS check: `npm run typecheck`
 - I decided to split the different parts of the homepage into modular components, making them as reusable as possible. It is also clearer to read and to work with.
 - The sticky header could be made position sticky or with grid layout, but to have the sticky footer as well, it was easier and faster to just create a flex layout
 - Instead of iterating the cards from a data array, I decided to just copy paste each component, since these are not dynamic it was just faster to do.
+- To make the page adapt better to mobile devices I used rem as font-sizes (and some paddings and margins), so when the width is less than 600px, the root font-size is reduced to 12px, making everything smaller.
 
 ### If given more time I would:
 
