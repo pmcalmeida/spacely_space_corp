@@ -29,3 +29,4 @@ Run TS check: `npm run typecheck`
 - Add a git hook so the linting and tests are automatically checked on commit
 - Render the app on server side, to have a better SEO optimization and faster load on the client
 - Get the cards data from an API (either reading from a JSON file or local mongo DB database)
+- Use an i18n file to store texts, so it is future proof for translations and easier to chang.
